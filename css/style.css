@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    color: black;
+}
+
+body, html{
+    height: 100%;
+    background-color: #dacabe;
+}
+
+/* header */
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* index Arzije Z */
+.wrapper{
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+
+h1{
+    color: black;
+    font-size: 140px;
+    font-family: 'Forum', cursive;
+}
+
+/* Projekt 1: Kaffe */
+.bg-img-coffee{
+    background-image: url("../images/img-bg-coffee.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Projekt 2: Natur */
+.bg-img-nature{
+    background-image: url("../images/img-bg-nature.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Projekt 3: Motion */
+.bg-img-motion{
+    background-image: url("../images/img-bg-motion.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Projekt 4: Skönhet */
+.bg-img-skonhet{
+    background-image: url("../images/img-bg-skonhet.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    background-color: #c6b7ab;
+    
+}
+/* .item{ 
+    align-self: flex-end;
+ } 
+
+ */
+
+.nav-item{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    /* position: fixed; */
+     font-size:medium;
+     font-family: 'Lato', sans-serif;
+    
+} 
+
+
+ 
+.article-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.flex-item{
+    
+    color: black;
+    padding-top: 40px;
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-basis: 35%;
+    text-align:justify;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-item{
+    padding-bottom: 50px;
+}
+
+img {
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+p{
+    
+    color: rgb(106, 99, 80)
+}
+
+h3{
+    color: #42362e;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #bd9a80;
+    color: white;
+    margin-top: 50px;
+}
+
+
+/* 
+
+text-align: center;
+
+.article-container{
+    border: solid 2px black;
+    margin: 40px;
+    padding: 30px;
+    padding-right: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+
+/* 
+img{
+    width: 100%;
+    max-width: 200px;
+}
+
+/*  
+.header-container{
+    border: solid 2px black;
+}
+
+/*  
+
+body, html{
+    height: 100%;
+}
+
+.bg-img{
+    background-image: url("/images/bg-img.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
